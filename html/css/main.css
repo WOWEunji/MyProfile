@@ -1,0 +1,36 @@
+.name_style {
+  font-family: verdana;
+}
+.container {
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: 200px 1fr; */
+  /* grid-template-columns: 100px 200px auto;  */
+  /* display: inline-grid; */
+  /* grid-template-rows: 200px 200px 200px; */
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-rows: repeat(3, 1fr); */
+  /* grid-template-rows: 200px 1fr; */
+  /* grid-template-rows: 100px 200px auto; */
+  /* auto grid*/
+  grid-auto-rows: minmax(1fr, auto);
+  row-gap: 10px;
+  column-gap: 30px;
+  gap: 10px 30px;
+  text-align: center;
+}
+.main-banner{
+  text-align: center;
+}
+
+.profile_main{
+  height: 70%;
+  width: auto;
+}
+
+.profile_icon{
+  height:30%;
+  width: auto;
+}
